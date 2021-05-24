@@ -1,38 +1,101 @@
-.App {
-  text-align: center;
+body{
+    font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Ubuntu, roboto, noto, arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input:hover{
+    outline: 2px solid #C33129;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button:hover{
+    background-color: #C33129;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.split{
+    height: 100%;
+    width: 50%;
+    position:fixed;
+    z-index: 1;
+    top:0;
+    overflow-x: hidden;
+    padding-top:20px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.left{
+    left:0;
+    background-color: #FFFFFF;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.right{
+    right:0;
+    background-color: #FFFFFF;
+    position:relative;
+    left:55%;
+    top:20%;
 }
+
+.centered{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.centered img{
+    max-width: 200%;
+    max-height: 100%;
+    margin: auto;
+
+}
+
+.logo{
+    position:absolute;
+    bottom: 0;
+    left:0;
+
+}
+
+
+.button1{
+    background-image: url(./google_logo.svg);
+    background-repeat: no-repeat;
+    background-position-x: 25%;
+    background-position-y: center;
+    background-size: 8%;
+    background-color: #FFFFFF;
+    border: 1px solid #B7B7B7;
+    width: 50%;
+    border-radius: 6px;
+    height: 40px;
+
+}
+
+.button2{
+    background-color: #F63E34;
+    color: #FFFFFF;
+    width: 50%;
+    border-radius: 6px;
+    height: 40px;
+}
+
+.texts{
+    font-size: 80%;
+}
+
+
+
+.signup{
+    font-size: 80%;
+    color:#B7B7B7;
+}
+
+.links{
+    color:#F63E34;
+}
+
+.links:hover{
+    color: #C33129;
+}
+
