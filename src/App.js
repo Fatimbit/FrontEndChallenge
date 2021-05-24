@@ -29,8 +29,8 @@ function App() {
       </p>
 
       <div class="texts">
-      Email <br></br><input type="text" name="email" size="57" ></input><br></br>
-      Password (min. 8 characters) <br></br><input type="text" name="password" size="57"></input><br></br>
+      Email <br></br><input type="email" name="email" size="57" ></input><br></br>
+      Password (min. 8 characters) <br></br><input type="password" name="password" size="57"></input><br></br>
         </div>
 
       <input type="checkbox" id="checkbox1" name="checkbox1" value="1"></input>
